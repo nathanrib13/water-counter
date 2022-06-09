@@ -1,0 +1,46 @@
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+button {
+    height: 41px;
+    width: 41px;
+    border-radius: 40%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 4px;
+}
+
+.subtitle{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+ 
+#counter { 
+    display: flex;
+}
+
+#currentCount{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+
+
+
